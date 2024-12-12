@@ -69,7 +69,7 @@ function Home() {
                     <div className="text-center py-5 my-0">
                         <h2 className="text-2xl font-bold mb-4">
                             <Link to="/login">
-                                <Button bgColor="bg-orange-500" hoverColor ="orange" className={`px-40`}>Login</Button>
+                                <Button bgColor="bg-orange-500" hoverColor ="orange" className={`px-32`}>Login</Button>
                             </Link>
                         </h2>
                         <p className="text-xs">Login to access exclusive content!</p>
