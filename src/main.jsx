@@ -16,6 +16,11 @@ import { AuthLayout } from './components/index.js'
 import About from './pages/About.jsx'
 import NotFound from './pages/NotFound.jsx'
 
+//Analytics:
+import { inject } from '@vercel/analytics';
+ 
+inject();
+
 const router = createBrowserRouter([
   {
     path: "/",
