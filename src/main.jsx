@@ -17,9 +17,8 @@ import About from './pages/About.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 //Analytics:
-import { inject } from '@vercel/analytics';
- 
-inject();
+import { Analytics } from "@vercel/analytics/react"
+
 
 const router = createBrowserRouter([
   {
@@ -92,6 +91,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Analytics/>
     <Provider store={store}>
       <RouterProvider router={router}/>
     </Provider>
